@@ -1,0 +1,165 @@
+[
+  {
+    "title": "Introduction to Web Development",
+    "description": "This course covers the basics of web development, including HTML, CSS, and JavaScript. Ideal for beginners looking to delve into the world of web programming.",
+    "instructor": "Jane Doe",
+    "category": "Computer Science",
+    "difficultyLevel": "Beginner",
+    "duration": 4,
+    "startDates": ["2023-01-15", "2023-04-20", "2023-07-10", "2023-10-05"],
+    "price": 99.99,
+    "avgRating": 4.5,
+    "reviewQuantity": 150,
+    "prerequisites": []
+  },
+  {
+    "title": "Introduction to Python Programming",
+    "description": "A beginner-friendly course introducing the fundamentals of Python. Topics include basic syntax, data types, control structures, functions, and an introduction to object-oriented programming. Ideal for those new to programming or Python.",
+    "instructor": "Laura Green",
+
+    "category": "Computer Science",
+    "difficultyLevel": "Beginner",
+    "duration": 5,
+    "startDates": ["2023-01-10", "2023-04-12", "2023-07-14", "2023-10-16"],
+    "price": 85.0,
+    "avgRating": 4.6,
+    "reviewQuantity": 160,
+    "prerequisites": []
+  },
+
+  {
+    "title": "Advanced Python Programming",
+    "description": "Dive deeper into Python programming with topics like advanced data structures, algorithms, and machine learning basics. Suitable for those with basic Python knowledge.",
+    "instructor": "John Smith",
+
+    "category": "Computer Science",
+    "difficultyLevel": "Intermediate",
+    "duration": 6,
+    "startDates": ["2023-02-10", "2023-05-15", "2023-08-20", "2023-11-10"],
+    "price": 129.99,
+    "avgRating": 4.7,
+    "reviewQuantity": 200,
+    "prerequisites": ["Introduction to Python Programming"]
+  },
+  {
+    "title": "Fundamentals of Digital Marketing",
+    "description": "Learn the basics of digital marketing, including SEO, social media marketing, and email marketing strategies for business growth.",
+    "instructor": "Alice Johnson",
+
+    "category": "Business",
+    "difficultyLevel": "Beginner",
+    "duration": 3,
+    "startDates": ["2023-03-01", "2023-06-05", "2023-09-07", "2023-12-03"],
+    "price": 79.99,
+    "avgRating": 4.3,
+    "reviewQuantity": 120,
+    "prerequisites": []
+  },
+  {
+    "title": "Introduction to Data Science",
+    "description": "An introductory course to data science, covering statistics, data analysis with Python, and visualization techniques.",
+    "instructor": "Michael Brown",
+
+    "category": "Data Science",
+    "difficultyLevel": "Beginner",
+    "duration": 5,
+    "startDates": ["2023-01-20", "2023-04-25", "2023-07-15", "2023-10-10"],
+    "price": 110.0,
+    "avgRating": 4.6,
+    "reviewQuantity": 180,
+    "prerequisites": [
+      "Introduction to Python Programming",
+      "Advanced Python Programming"
+    ]
+  },
+  {
+    "title": "Graphic Design Basics",
+    "description": "Explore the world of graphic design, learning about fundamental concepts and software like Adobe Photoshop and Illustrator.",
+    "instructor": "Sarah Lee",
+
+    "category": "Art and Design",
+    "difficultyLevel": "Beginner",
+    "duration": 4,
+    "startDates": ["2023-02-15", "2023-05-20", "2023-08-25", "2023-11-15"],
+    "price": 89.99,
+    "avgRating": 4.4,
+    "reviewQuantity": 140,
+    "prerequisites": []
+  },
+  {
+    "title": "Project Management Essentials",
+    "description": "A comprehensive course on project management principles, methodologies like Agile and Scrum, and tools like JIRA.",
+    "instructor": "David Wilson",
+
+    "category": "Management",
+    "difficultyLevel": "Intermediate",
+    "duration": 8,
+    "startDates": ["2023-03-10", "2023-06-10", "2023-09-10", "2023-12-10"],
+    "price": 139.99,
+    "avgRating": 4.8,
+    "reviewQuantity": 210,
+    "prerequisites": ["Introduction to Data Science"]
+  },
+  {
+    "title": "Mastering JavaScript for Web Development",
+    "description": "An advanced course on JavaScript, covering ES6 features, asynchronous programming, and best practices for efficient code.",
+    "instructor": "Emily Turner",
+
+    "category": "Computer Science",
+    "difficultyLevel": "Advanced",
+    "duration": 7,
+    "startDates": ["2023-02-15", "2023-05-17", "2023-08-21", "2023-11-20"],
+    "price": 145.0,
+    "avgRating": 4.8,
+    "reviewQuantity": 220,
+    "prerequisites": ["Introduction to Web Development"]
+  },
+  {
+    "title": "Building APIs with Node and Express",
+    "description": "Learn to build robust and scalable RESTful APIs using Node.js and Express. Covers middleware, routing, error handling, and database integration.",
+    "instructor": "Lucas Martinez",
+
+    "category": "Computer Science",
+    "difficultyLevel": "Intermediate",
+    "duration": 6,
+    "startDates": ["2023-03-12", "2023-06-14", "2023-09-16", "2023-12-18"],
+    "price": 130.0,
+    "avgRating": 4.6,
+    "reviewQuantity": 190,
+    "prerequisites": [
+      "Mastering JavaScript for Web Development",
+      "Introduction to Web Development"
+    ]
+  },
+  {
+    "title": "React Development From Basics to Hooks",
+    "description": "A comprehensive guide to building user interfaces with React. This course covers React basics, component lifecycle, state management, and the use of hooks.",
+    "instructor": "Sophia Nguyen",
+
+    "category": "Computer Science",
+    "difficultyLevel": "Intermediate",
+    "duration": 5,
+    "startDates": ["2023-04-10", "2023-07-11", "2023-10-13", "2024-01-15"],
+    "price": 120.0,
+    "avgRating": 4.7,
+    "reviewQuantity": 175,
+    "prerequisites": [
+      "Introduction to Web Development",
+      "Mastering JavaScript for Web Development"
+    ]
+  },
+  {
+    "title": "Introduction to Machine Learning with TensorFlow",
+    "description": "Explore machine learning concepts and hands-on implementation using TensorFlow. Topics include neural networks, convolutional and recurrent neural networks, and TensorFlow's Keras API.",
+    "instructor": "Robert Zhao",
+
+    "category": "Data Science",
+    "difficultyLevel": "Intermediate",
+    "duration": 8,
+    "startDates": ["2023-03-15", "2023-06-18", "2023-09-20", "2023-12-22"],
+    "price": 150.0,
+    "avgRating": 4.9,
+    "reviewQuantity": 230,
+    "prerequisites": ["Introduction to Data Science"]
+  }
+]
