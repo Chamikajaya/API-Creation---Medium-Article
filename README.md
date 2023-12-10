@@ -9,8 +9,9 @@
 ## 📚 About the Series
 
 The article series is structured into three comprehensive parts:
+ 
 
-1. **Part 1**: We start by setting up our environment, crafting a course model with Mongoose, and seeding our database with initial data.
+1. **Part 1**: [We start by setting up our environment, crafting a course model with Mongoose, and seeding our database with initial data.](https://medium.com/@Chamika_Jayasinghe/constructing-scalable-backends-for-modern-web-apps-using-node-express-and-mongodb-part-1-7199c3ef519d)
 2. **Part 2**: We will tackle creating the route handlers to allow clients to interact with our API.
 3. **Part 3**: The series will conclude with the addition of user models and the implementation of authentication and authorization to secure our API and manage user access.
 
