@@ -88,16 +88,13 @@ const courseSchema = new mongoose.Schema({
 
 
 // Virtual properties in Mongoose
-courseSchema.virtual('formattedDuration').get(function () {
+courseSchema.virtual('nextStartDate').get(function () {
 
-
-    const weeks = Math.floor(this.duration / 7)
-
-    const days = this.duration % 7
-
-    return `${weeks} weeks ${days} days`
-
-})
+    // Filter start dates that are in the future
+    const upcomingDates = this.startDates.filter(date => date > new Date());
+    // Return the nearest future start date, or null if none are available
+    return upcomingDates.length > 0 ? upcomingDates.sort()[0] : null;
+});
 
 // Pre Save hook  - Mongoose middleware
 courseSchema.pre('save', function (next) {
